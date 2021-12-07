@@ -1,0 +1,2 @@
+print(sum([(((abs(int(round(sum([int(crab) for crab in open('input.txt').readline().split(',')]) / len([int(crab) for crab in open('input.txt').readline().split(',')]))) - 1 - crab) ** 2) + abs(int(round(sum([int(crab) for crab in open('input.txt').readline().split(',')]) / len([int(crab) for crab in open('input.txt').readline().split(',')]))) - 1 - crab)) // 2) for crab in [int(crab) for crab in open('input.txt').readline().split(',')]]))
+# absolutely disgusting one liner
